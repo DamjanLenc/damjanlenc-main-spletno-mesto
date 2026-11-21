@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f7fb;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.zaobljen-lik {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px 10%;
+    color: #1e293b;
+    font-size: 20px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+header {
+    padding: 30px 10%;
+    text-align: right;
+    color: #1e293b;
+}
+
+.selection {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.selection a {
+    color: #1e293b;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.selection a:hover {
+    color: #2563eb;
+}
+
+header hr {
+    background-color: #2563eb;
+    border: none;
+    height: 4px;
+    border-radius: 2px;
+}
+img {
+    height: 30%;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.about-me {
+    gap: 30px;
+}
