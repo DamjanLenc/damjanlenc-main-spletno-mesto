@@ -7,7 +7,7 @@ body {
 .zaobljen-lik {
     background-color: #ffffff;
     border-radius: 20px;
-    padding: 30px;
+    padding: 50px;
     margin: 20px 10%;
     color: #1e293b;
     font-size: 20px;
@@ -26,6 +26,7 @@ header {
     gap: 20px;
     justify-content: flex-end;
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .selection a {
@@ -46,11 +47,38 @@ header hr {
     border-radius: 2px;
 }
 img {
-    height: 30%;
-    width: 30%;
+
+    height: auto;
+    width: 400px;
     border-radius: 20px;
+    flex-shrink: 0;
 }
 
 .about-me {
+    display: flex;
+    align-items: flex-start;
     gap: 30px;
+    padding-bottom: 70px;
+}
+
+.leva-slika {
+    padding-right: 40px;
+}
+@media (max-width: 1000px) {
+	.zaobljen-lik {
+	    margin-left: 5%;
+		margin-right: 5%;
+		padding: 20px;
+	}
+
+	.about-me {
+	    flex-direction: column;
+		align-items: center;
+
+	.about-me img {
+	    width: 140px;
+		height: auto;
+		flex-direction: row;
+	}
+}
 }
