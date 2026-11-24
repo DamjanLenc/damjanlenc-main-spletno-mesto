@@ -1,2 +1,2 @@
 # damjanlenc-main-spletno-mesto
-ds
+DAMJANLENC WEBSITE IN PROGRESS...
