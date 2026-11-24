@@ -64,6 +64,14 @@ img {
 .leva-slika {
     padding-right: 40px;
 }
+
+.below-about-me {
+    flex-direction: column;
+}
+.below-about-me h3 {
+    font-weight: bold;
+}
+
 @media (max-width: 1000px) {
 	.zaobljen-lik {
 	    margin-left: 5%;
