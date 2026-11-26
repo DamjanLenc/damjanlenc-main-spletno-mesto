@@ -68,7 +68,7 @@ img {
 .below-about-me {
     flex-direction: column;
 }
-.below-about-me h3 {
+.below-about-me h3, h1 {
     font-weight: bold;
 }
 
